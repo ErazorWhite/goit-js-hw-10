@@ -10,6 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-color: darkgray;
 }
 
 #search-box {
@@ -17,4 +18,19 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+.country-item {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.country-thumb {
+  display: flex;
+  gap: 10px;
 }
