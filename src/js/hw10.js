@@ -11,6 +11,8 @@ const countryListEl = document.querySelector('.country-list');
 function onInput() {
   const searchQuerry = searchInputEl.value.trim();
 
+  countryListEl.innerHTML = '';
+
   if (!searchQuerry) {
     Notify.info('Try enter something in search box');
     return;
